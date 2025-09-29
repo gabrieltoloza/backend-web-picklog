@@ -1,0 +1,89 @@
+{
+    "success": true,
+    "data": {
+        "historial": {
+            "msg": "",
+            "status": true,
+            "result": [
+                [
+                    {
+                        "date": "26-09-2025 12:17",
+                        "state": {
+                            "id": 0,
+                            "name": "EN ESPERA"
+                        }
+                    },
+                    {
+                        "date": "26-09-2025 12:56",
+                        "state": {
+                            "id": 4,
+                            "name": "EN DEPOSITO"
+                        }
+                    },
+                    {
+                        "date": "26-09-2025 14:07",
+                        "state": {
+                            "id": 1,
+                            "name": "EN CAMINO"
+                        }
+                    },
+                    {
+                        "date": "26-09-2025 16:09",
+                        "state": {
+                            "id": 2,
+                            "name": "ENTREGADO"
+                        }
+                    }
+                ]
+            ]
+        },
+        "state": {
+            "msg": "",
+            "status": true,
+            "result": [
+                {
+                    "code": "45577738105",
+                    "date": {
+                        "date": "2025-09-26 12:17:12.000000",
+                        "timezone_type": 3,
+                        "timezone": "America/Argentina/Buenos_Aires"
+                    },
+                    "cliente": "vacavaliente",
+                    "receives": "Ricardo Perez Trevisan",
+                    "service": "DME",
+                    "address": "Calle Hipolito Yrigoyen 5651",
+                    "reference": "Petrosar Referencia: Petrosar",
+                    "location": "Chubut, Comodoro rivadavia",
+                    "postal_code": "U9005",
+                    "province": "Chubut",
+                    "telephone": "",
+                    "email": null,
+                    "state_id": 2,
+                    "state": "ENTREGADO",
+                    "bultos": 1,
+                    "price": "931.01",
+                    "price_iva": 1126.52,
+                    "armado": "0.00",
+                    "etiquetado": "0.00",
+                    "materiales": "0.00",
+                    "external_reference": "2000009354682323",
+                    "external_supplier": [],
+                    "routes": [
+                        {
+                            "ruta_id": 8174,
+                            "chofer": "cabral3347",
+                            "chofer_external_reference": null,
+                            "estado": "ENTREGADO",
+                            "fecha": {
+                                "date": "2025-09-26 14:07:00.000000",
+                                "timezone_type": 3,
+                                "timezone": "America/Argentina/Buenos_Aires"
+                            },
+                            "vehiculo": "MERCADO ENVIOS"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
