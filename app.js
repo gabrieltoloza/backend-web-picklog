@@ -15,7 +15,8 @@ app.use(cors({
     origin: [
         'http://localhost:3000',
         'https://picklogweb.vercel.app',
-        'https://picklog.com.ar'
+        'https://picklog.com.ar',
+        'https://www.picklog.com.ar'
     ],
 }));
 

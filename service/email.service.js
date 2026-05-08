@@ -33,7 +33,7 @@ export class mailService {
         const subject = `Formulario de transportistas - ${fecha}`
         const { data, error } = await resend.emails.send({
             from: 'Pick & Log <inscripcionesweb@picklog.online>',
-            to: 'gtoloza.acquabsas@gmail.com', // tu casilla fija
+            to: 'rrhh.acquabsas@gmail.com', // tu casilla fija
             subject: subject,
             html,
         });
