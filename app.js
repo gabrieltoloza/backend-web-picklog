@@ -3,6 +3,7 @@ import express from 'express';
 import emailRouter from './router/email.routes.js';
 import trackingRouter from './router/tracking.routes.js';
 import cors from 'cors'
+import morgan from 'morgan';
 
 
 
@@ -10,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 9090;
 app.use(express.json());
 
-
+// CORS 
 app.use(cors({
     origin: [
         'http://localhost:3000',
@@ -20,7 +21,7 @@ app.use(cors({
     ],
 }));
 
-
+app.use(morgan('combined'))
 app.use('/contact', emailRouter); // Usa el router de mailing
 app.use('/tracking', trackingRouter); // Usa el router de tracking
 

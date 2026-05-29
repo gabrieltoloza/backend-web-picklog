@@ -23,8 +23,6 @@ export const getTokenAkeron = async (req, res, next) => {
 
         const data = await response.json();
 
-        console.log(data)
-
         if (data.status === true && Array.isArray(data.result) && data.result[0]?.api_token) {
             req.akeronToken = data.result[0].api_token; // Solo el token
             next();
